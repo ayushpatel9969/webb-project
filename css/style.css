@@ -1,12 +1,24 @@
-body {
-  background-color: blue;
-  text-align: center;
-  font-family: Arial, sans-serif;
+#data-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 50px auto;
+  color: #333;
 }
 
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
 
-@media (max-width: 600px) {
-  body {
-      background-color: lightgreen;
-  }
+button:hover {
+  background-color: #0056b3;
 }

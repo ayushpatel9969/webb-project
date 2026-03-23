@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hi i'm Ayush</h1>
-<p>Web site in progress.</p>
+    <body>
+        <header>
+            <h1 id="greeting">Welcome</h1>
+            <button onclick="toggleDarkMode()">Toggle Dark/Light Mode</button>
+        </header>
+    
+        <main>
+            <div id="data-container">
+                <h2>Live Developer Quote</h2>
+                <p id="quote-text">Loading fresh data...</p>
+                <button onclick="fetchQuote()">Get New Quote</button>
+            </div>
+        </main>
+    
+        <script src="js/script.js"></script>
+    </body>
 </body>
 </html>
