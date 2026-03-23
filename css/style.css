@@ -1,0 +1,10 @@
+body {
+    background-color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}/* This is the Responsive part */
+@media (max-width: 600px) {
+    body {
+      background-color: lightgreen; /* Turns green on mobile! */
+    }
+  }
